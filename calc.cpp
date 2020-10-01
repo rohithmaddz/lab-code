@@ -8,8 +8,8 @@ int main()
 	double num1, num2, result;
 	int value;
 
-	cout << "Select one of the operations" << endl;
-	cout << "1. Addition \t\t 2. Subtraction \t\t 3. Multiplication \t\t 4. Division" << endl;
+	cout << "Select the operations" << endl;
+	cout << "1. Addition \t\t 2. Subtraction \t\t 3. Division \t\t 4. Multiplication" << endl;
 	cin >> value;
 
 	cout << "Enter the two numbers" << endl;
@@ -31,12 +31,12 @@ int main()
 		  	break;
 
 		case 3:
-			result = num1 * num2;
+			result = num1 / num2;
 			cout << "Result "<< result << endl;
 		  	break;
 
 		case 4:
-			result = num1 / num2;
+			result = num1 * num2;
 			cout << "Result "<< result << endl;
 		  	break;
 
